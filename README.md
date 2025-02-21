@@ -1,6 +1,7 @@
-# Frame Phone
+# Frame Phones
 
-A sleek and fully responsive website built with Next.js 15 App Router and Tailwind CSS. This project follows best practices in UI/UX, ensuring a smooth user experience across all devices.
+A sleek and fully responsive website built with Next.js 15, App Router, Tailwind CSS and Framer Motion. This project follows best practices in UI/UX, ensuring a smooth user experience across all
+devices.
 
 🚀 Features
 🔹 Fully Responsive – Works seamlessly on all screen sizes

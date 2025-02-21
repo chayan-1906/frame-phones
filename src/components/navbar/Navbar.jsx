@@ -1,6 +1,9 @@
+'use client';
+
 import Link from "next/link";
 import {MdMenu} from "react-icons/md";
 import {SlEarphones} from "react-icons/sl";
+import {motion} from "framer-motion";
 
 const navbarMenu = [
     {
@@ -33,8 +36,8 @@ const navbarMenu = [
 function Navbar() {
     return (
         <>
-            <div className={'bg-brandDark text-white py-4'}>
-                <nav className={'container flex justify-between items-center'}>
+            <div className={'bg-brandDark text-white py-8 font-varela'}>
+                <motion.nav initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration: 1, delay: 0.5}} className={'container flex justify-between items-center'}>
                     {/** logo section */}
                     <div>
                         <Link href={'#'} className={'text-xl font-bold uppercase'}>Playing / <span className={'font-extralight text-white/70'}>Market</span> </Link>
@@ -56,9 +59,9 @@ function Navbar() {
 
                     {/** mobile hamburger section */}
                     <div className={'md:hidden'}>
-                        <MdMenu/>
+                        <MdMenu className={'text-4xl'}/>
                     </div>
-                </nav>
+                </motion.nav>
             </div>
         </>
     );

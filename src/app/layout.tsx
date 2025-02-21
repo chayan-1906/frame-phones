@@ -3,13 +3,13 @@ import "./globals.css";
 import React from "react";
 
 export const metadata: Metadata = {
-    title: 'Frame-Phone',
+    title: 'Frame-Phones',
     description: '',
 }
 
 function RootLayout({children}: Readonly<{ children: React.ReactNode; }>) {
     return (
-        <html lang="en">
+        <html lang={'en'}>
         <body className={''}>
         {children}
         </body>
