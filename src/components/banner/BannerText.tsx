@@ -1,6 +1,6 @@
 function BannerText() {
     return (
-        <div children={''}>
+        <div className={''}>
             BannerText
         </div>
     );
