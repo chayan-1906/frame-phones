@@ -4,6 +4,7 @@ A sleek and fully responsive website built with Next.js 15, App Router, Tailwind
 devices.
 
 🚀 Features
+
 🔹 Fully Responsive – Works seamlessly on all screen sizes
 
 🔹 Modern UI Design – Clean and intuitive interface
@@ -50,4 +51,4 @@ Your app is ready to be deployed!
 
 # Video Preview
 
-[Demo](https://github.com/user-attachments/assets/27b6f815-f8d9-4174-8668-369603851420)
+[Demo](https://github.com/user-attachments/assets/42c8f8df-a6bd-416d-aabd-c1e046890bbd)
